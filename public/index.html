@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    
+    <title>TicTacJs</title>
+</head>
+<body>
+
+    
+    <main class="main">
+
+
+
+        <div class="box">
+            <div class="box1">
+                
+                <div id="win_h_0" class="winH sHiden"></div>
+                <div id="win_v_0" class="winV winV1 sHiden"></div>
+                <div id="win_d_0" class="winV winV1 sHiden"></div>
+                <div id="win_d_1" class="winV winV1 sHiden"></div>
+
+                <div id="insid1" class="box-inside">
+                    <svg class="ov sHiden" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50"><path id="O-ico" d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705 12.309295 48 25 48 C 37.690705 48 48 37.690705 48 25 C 48 12.309295 37.690705 2 25 2 z M 25 4 C 36.609824 4 46 13.390176 46 25 C 46 36.609824 36.609824 46 25 46 C 13.390176 46 4 36.609824 4 25 C 4 13.390176 13.390176 4 25 4 z"></path></svg>
+                    <svg class="xv sHiden" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50" ><path id="X-ico" d="M 7.71875 6.28125 L 6.28125 7.71875 L 23.5625 25 L 6.28125 42.28125 L 7.71875 43.71875 L 25 26.4375 L 42.28125 43.71875 L 43.71875 42.28125 L 26.4375 25 L 43.71875 7.71875 L 42.28125 6.28125 L 25 23.5625 Z"></path></svg>
+                
+                </div>
+                <div id="insid2" class="box-inside">
+                    <svg class="ov sHiden" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50"><path id="O-ico" d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705 12.309295 48 25 48 C 37.690705 48 48 37.690705 48 25 C 48 12.309295 37.690705 2 25 2 z M 25 4 C 36.609824 4 46 13.390176 46 25 C 46 36.609824 36.609824 46 25 46 C 13.390176 46 4 36.609824 4 25 C 4 13.390176 13.390176 4 25 4 z"></path></svg>
+                    <svg class="xv sHiden" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50" ><path id="X-ico" d="M 7.71875 6.28125 L 6.28125 7.71875 L 23.5625 25 L 6.28125 42.28125 L 7.71875 43.71875 L 25 26.4375 L 42.28125 43.71875 L 43.71875 42.28125 L 26.4375 25 L 43.71875 7.71875 L 42.28125 6.28125 L 25 23.5625 Z"></path></svg>
+                </div>
+                <div id="insid3" class="box-inside">
+                    <svg class="ov sHiden" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50"><path id="O-ico" d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705 12.309295 48 25 48 C 37.690705 48 48 37.690705 48 25 C 48 12.309295 37.690705 2 25 2 z M 25 4 C 36.609824 4 46 13.390176 46 25 C 46 36.609824 36.609824 46 25 46 C 13.390176 46 4 36.609824 4 25 C 4 13.390176 13.390176 4 25 4 z"></path></svg>
+                    <svg class="xv sHiden" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50" ><path id="X-ico" d="M 7.71875 6.28125 L 6.28125 7.71875 L 23.5625 25 L 6.28125 42.28125 L 7.71875 43.71875 L 25 26.4375 L 42.28125 43.71875 L 43.71875 42.28125 L 26.4375 25 L 43.71875 7.71875 L 42.28125 6.28125 L 25 23.5625 Z"></path></svg>
+                </div>
+            </div>
+            <div class="box1">
+
+                <div id="win_h_1" class="winH sHiden"></div>
+                <div id="win_v_1" class="winV winV2 sHiden"></div>
+
+                <div id="insid4" class="box-inside">
+                    <svg class="ov sHiden" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50"><path id="O-ico" d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705 12.309295 48 25 48 C 37.690705 48 48 37.690705 48 25 C 48 12.309295 37.690705 2 25 2 z M 25 4 C 36.609824 4 46 13.390176 46 25 C 46 36.609824 36.609824 46 25 46 C 13.390176 46 4 36.609824 4 25 C 4 13.390176 13.390176 4 25 4 z"></path></svg>
+                    <svg class="xv sHiden" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50" ><path id="X-ico" d="M 7.71875 6.28125 L 6.28125 7.71875 L 23.5625 25 L 6.28125 42.28125 L 7.71875 43.71875 L 25 26.4375 L 42.28125 43.71875 L 43.71875 42.28125 L 26.4375 25 L 43.71875 7.71875 L 42.28125 6.28125 L 25 23.5625 Z"></path></svg>
+                </div>
+                <div id="insid5" class="box-inside">
+                    <svg class="ov sHiden" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50"><path id="O-ico" d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705 12.309295 48 25 48 C 37.690705 48 48 37.690705 48 25 C 48 12.309295 37.690705 2 25 2 z M 25 4 C 36.609824 4 46 13.390176 46 25 C 46 36.609824 36.609824 46 25 46 C 13.390176 46 4 36.609824 4 25 C 4 13.390176 13.390176 4 25 4 z"></path></svg>
+                    <svg class="xv sHiden" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50" ><path id="X-ico" d="M 7.71875 6.28125 L 6.28125 7.71875 L 23.5625 25 L 6.28125 42.28125 L 7.71875 43.71875 L 25 26.4375 L 42.28125 43.71875 L 43.71875 42.28125 L 26.4375 25 L 43.71875 7.71875 L 42.28125 6.28125 L 25 23.5625 Z"></path></svg>
+                </div>
+                <div id="insid6" class="box-inside">
+                    <svg class="ov sHiden" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50"><path id="O-ico" d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705 12.309295 48 25 48 C 37.690705 48 48 37.690705 48 25 C 48 12.309295 37.690705 2 25 2 z M 25 4 C 36.609824 4 46 13.390176 46 25 C 46 36.609824 36.609824 46 25 46 C 13.390176 46 4 36.609824 4 25 C 4 13.390176 13.390176 4 25 4 z"></path></svg>
+                    <svg class="xv sHiden" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50" ><path id="X-ico" d="M 7.71875 6.28125 L 6.28125 7.71875 L 23.5625 25 L 6.28125 42.28125 L 7.71875 43.71875 L 25 26.4375 L 42.28125 43.71875 L 43.71875 42.28125 L 26.4375 25 L 43.71875 7.71875 L 42.28125 6.28125 L 25 23.5625 Z"></path></svg>
+                </div>
+            </div>
+            <div class="box1">
+                <div id="win_h_2" class="winH sHiden"></div>
+                <div id="win_v_2" class="winV winV3 sHiden"></div>
+                <div id="insid7" class="box-inside">
+                    <svg class="ov sHiden" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50"><path id="O-ico" d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705 12.309295 48 25 48 C 37.690705 48 48 37.690705 48 25 C 48 12.309295 37.690705 2 25 2 z M 25 4 C 36.609824 4 46 13.390176 46 25 C 46 36.609824 36.609824 46 25 46 C 13.390176 46 4 36.609824 4 25 C 4 13.390176 13.390176 4 25 4 z"></path></svg>
+                    <svg class="xv sHiden" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50" ><path id="X-ico" d="M 7.71875 6.28125 L 6.28125 7.71875 L 23.5625 25 L 6.28125 42.28125 L 7.71875 43.71875 L 25 26.4375 L 42.28125 43.71875 L 43.71875 42.28125 L 26.4375 25 L 43.71875 7.71875 L 42.28125 6.28125 L 25 23.5625 Z"></path></svg>
+                </div>
+                <div id="insid8" class="box-inside">
+                    <svg class="ov sHiden" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50"><path id="O-ico" d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705 12.309295 48 25 48 C 37.690705 48 48 37.690705 48 25 C 48 12.309295 37.690705 2 25 2 z M 25 4 C 36.609824 4 46 13.390176 46 25 C 46 36.609824 36.609824 46 25 46 C 13.390176 46 4 36.609824 4 25 C 4 13.390176 13.390176 4 25 4 z"></path></svg>
+                    <svg class="xv sHiden" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50" ><path id="X-ico" d="M 7.71875 6.28125 L 6.28125 7.71875 L 23.5625 25 L 6.28125 42.28125 L 7.71875 43.71875 L 25 26.4375 L 42.28125 43.71875 L 43.71875 42.28125 L 26.4375 25 L 43.71875 7.71875 L 42.28125 6.28125 L 25 23.5625 Z"></path></svg>
+                </div>
+                <div id="insid9" class="box-inside">
+                    <svg class="ov sHiden" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50"><path id="O-ico" d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705 12.309295 48 25 48 C 37.690705 48 48 37.690705 48 25 C 48 12.309295 37.690705 2 25 2 z M 25 4 C 36.609824 4 46 13.390176 46 25 C 46 36.609824 36.609824 46 25 46 C 13.390176 46 4 36.609824 4 25 C 4 13.390176 13.390176 4 25 4 z"></path></svg>
+                    <svg class="xv sHiden" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50" ><path id="X-ico" d="M 7.71875 6.28125 L 6.28125 7.71875 L 23.5625 25 L 6.28125 42.28125 L 7.71875 43.71875 L 25 26.4375 L 42.28125 43.71875 L 43.71875 42.28125 L 26.4375 25 L 43.71875 7.71875 L 42.28125 6.28125 L 25 23.5625 Z"></path></svg>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="replay sVisible">
+            <button>Replay</button>
+        </div>
+        <div class="overlay sHiden">
+            
+        </div>
+
+
+    </main>
+
+
+
+    <script src="/Js/function.js"></script>
+</body>
+</html>
